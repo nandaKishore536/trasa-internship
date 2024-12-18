@@ -16,10 +16,7 @@ function App() {
 
   return (
     <>
-      {isLoader
-        ? <ScreenLoader />
-        : <CustomRoutes />
-      }
+       <CustomRoutes />
       <ToastContainer />
     </>
   );
